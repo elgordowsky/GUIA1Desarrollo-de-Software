@@ -6,15 +6,15 @@ import java.util.*;
 /**
  * 
  */
-public class Motocicleta extends Vehiculo {
+public class Motocicleta extends Vehiculo {       //clase que hereda de vehiculos la mayoria de atributos
 
-    public int cilindraje;
+    public int cilindraje;   // Atributo propio
 
     public Motocicleta(String placa, String marca, String modelo,String tipo, int cilindraje) {
         super(placa, marca, modelo, tipo);
         this.cilindraje = cilindraje;
     }
-
+    //GUETTERS SETTERS
     public int getCilindraje() {
         return cilindraje;
     }

@@ -6,9 +6,9 @@ import java.time.LocalDate;
 /**
  * 
  */
-public class Camion extends Vehiculo {
+public class Camion extends Vehiculo {   //clase que hereda de vehiculos la mayoria de atributos
 
-    public double capacidadCarga;
+    public double capacidadCarga;     // Atributo propio
 
 
 
@@ -20,7 +20,7 @@ public class Camion extends Vehiculo {
     /**
      * @return
      */
-
+    //GUETTERS SETTERS
     public double getCapacidadCarga() {
         return capacidadCarga;
     }

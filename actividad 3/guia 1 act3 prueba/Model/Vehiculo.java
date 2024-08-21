@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.Date.*;
 import java.io.*;
 import java.time.Duration;
-
+// En la clase parqueadero se establecen la mayoria de atributos que se usan en el programa
  public class Vehiculo {
     public String placa;
     public String marca;
@@ -19,7 +19,7 @@ import java.time.Duration;
         this.horaEntrada = LocalDateTime.now();
         this.tipo = tipo.toLowerCase(Locale.ROOT);
     }
-
+    //GUETTERS SETTERS
     public String getPlaca() {
         return placa;
     }

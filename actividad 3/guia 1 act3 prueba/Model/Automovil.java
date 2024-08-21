@@ -7,16 +7,16 @@ import java.util.*;
 /**
  * 
  */
-public class Automovil extends Vehiculo {
+public class Automovil extends Vehiculo {   //clase que hereda de vehiculos la mayoria de atributos
 
-    public String tipoCombustible;
+    public String tipoCombustible;      // Atributo propio
 
 
     public Automovil(String placa, String marca, String modelo, String tipo, String tipoCombustible) {
         super(placa, marca, modelo, tipo);
         this.tipoCombustible = tipoCombustible;
     }
-
+    //GUETTERS SETTERS
     public String getTipoCombustible() {
         return tipoCombustible;
     }
